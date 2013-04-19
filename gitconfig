@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+[user]
+	email = casper.zx@gmail.com
+	name = casper
+[color]
+	ui = auto
+[alias]
+	ci = commit
+	stat = status
