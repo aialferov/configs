@@ -2,9 +2,10 @@
 	editor = vim
 [user]
 	email = casper.zx@gmail.com
-	name = casper
+	name = Anton I Alferov
 [color]
 	ui = auto
 [alias]
 	ci = commit
+	co = checkout
 	stat = status
