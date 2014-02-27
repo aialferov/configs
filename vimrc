@@ -5,7 +5,7 @@
 
 :set tabstop=4
 :set shiftwidth=4
-:set colorcolumn=80
+:set colorcolumn=81
 
 :cabbrev ga !git add %
 :cabbrev gd !git diff %
