@@ -1,3 +1,5 @@
+syntax on
+
 :set ruler
 :set number
 :set modeline
