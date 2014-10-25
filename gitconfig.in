@@ -1,8 +1,8 @@
 [core]
 	editor = vim
 [user]
-	email = anton@alferov.me
-	name = Anton I Alferov
+	email = $email
+	name = $name
 [color]
 	ui = auto
 [alias]
