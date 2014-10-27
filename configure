@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-usage="USAGE ./$(basename $0) <git email> <git username>"
+usage="USAGE ./$(basename $0) <git email>"
 
 make_file="Makefile"
 make_file_in="Makefile.in"
@@ -9,12 +9,9 @@ git_config_file="gitconfig"
 git_config_file_in="gitconfig.in"
 
 git_email="$1"
-git_username="$2"
 
-if [ -z "$git_email" ] || [ -z "$git_username" ]; then echo "$usage"; exit 1; fi
+if [ -z "$git_email" ]; then echo "$usage"; exit 1; fi
 
-sed "s/\$email/$git_email/" $git_config_file_in |\
-sed "s/\$name/$git_username/" \
-	> $git_config_file
+sed "s/\$email/$git_email/" > $git_config_file
 
 cp $make_file_in $make_file
