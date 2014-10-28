@@ -12,6 +12,6 @@ git_email="$1"
 
 if [ -z "$git_email" ]; then echo "$usage"; exit 1; fi
 
-sed "s/\$email/$git_email/" > $git_config_file
+sed "s/\$email/$git_email/" $git_config_file_in > $git_config_file
 
 cp $make_file_in $make_file
