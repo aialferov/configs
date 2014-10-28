@@ -3,12 +3,14 @@ syntax on
 :set ruler
 :set number
 :set modeline
+:set expandtab
 :set relativenumber
 
 :set nobackup
 
 :set tabstop=4
 :set shiftwidth=4
+:set softtabstop=4
 :set colorcolumn=81
 
 :cabbrev ga !git add %
