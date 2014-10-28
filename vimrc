@@ -5,6 +5,8 @@ syntax on
 :set modeline
 :set relativenumber
 
+:set nobackup
+
 :set tabstop=4
 :set shiftwidth=4
 :set colorcolumn=81
