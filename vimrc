@@ -1,4 +1,5 @@
 syntax on
+filetype indent off
 
 :set ruler
 :set number
@@ -10,7 +11,6 @@ syntax on
 :set nobackup
 
 :set tabstop=4
-:set indentexpr=
 :set shiftwidth=4
 :set softtabstop=4
 :set colorcolumn=81
