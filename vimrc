@@ -6,9 +6,11 @@ syntax on
 :set expandtab
 :set relativenumber
 
+:set noai
 :set nobackup
 
 :set tabstop=4
+:set indentexpr=
 :set shiftwidth=4
 :set softtabstop=4
 :set colorcolumn=81
