@@ -1,4 +1,5 @@
 syntax on
+filetype indent off
 
 :set ruler
 :set number
@@ -6,7 +7,10 @@ syntax on
 :set expandtab
 :set relativenumber
 
+:set noai
 :set nobackup
+:set nohlsearch
+:set noincsearch
 
 :set tabstop=4
 :set shiftwidth=4
