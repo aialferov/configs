@@ -1,5 +1,6 @@
 syntax on
 filetype indent off
+colorscheme solarized
 
 :set ruler
 :set number
@@ -16,11 +17,13 @@ filetype indent off
 :set shiftwidth=4
 :set softtabstop=4
 :set colorcolumn=81
+:set background=dark
 
 :cabbrev ga !git add %
 :cabbrev gd !git diff %
 :cabbrev gs !git stat
 :cabbrev gci !git ci -v
+:cabbrev gco !git co %
 
 map " @
 map № #
