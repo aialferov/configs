@@ -2,6 +2,8 @@ syntax on
 filetype indent off
 colorscheme solarized
 
+autocmd FileType make setlocal noexpandtab
+
 :set ruler
 :set number
 :set modeline
