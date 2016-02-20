@@ -24,7 +24,7 @@ autocmd FileType make setlocal noexpandtab
 :cabbrev ga !git add %
 :cabbrev gd !git diff %
 :cabbrev gs !git stat
-:cabbrev gp !git push
+:cabbrev gp !git push origin HEAD
 :cabbrev gci !git ci -v
 :cabbrev gco !git co %
 
@@ -64,7 +64,6 @@ map т n
 map ь m
 map б ,
 map ю .
-map . /
 map Й Q
 map Ц W
 map У E
