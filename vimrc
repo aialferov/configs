@@ -28,6 +28,8 @@ autocmd FileType make setlocal noexpandtab
 :cabbrev gci !git ci -v
 :cabbrev gco !git co %
 
+:inoremap jj <Esc>
+
 map " @
 map № #
 map ; $
