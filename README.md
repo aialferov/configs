@@ -1,6 +1,6 @@
 # Dotfiles
 
-Settings for VIM, Git and Terminal input.
+Settings for Vim, Git and Terminal input.
 
 ## Usage
 
