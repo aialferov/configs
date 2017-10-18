@@ -1,4 +1,4 @@
-syntax on
+syntax off
 filetype indent off
 colorscheme solarized
 
@@ -19,7 +19,7 @@ autocmd FileType make setlocal noexpandtab
 :set shiftwidth=4
 :set softtabstop=4
 :set colorcolumn=81
-:set background=dark
+:set background=light
 
 :cabbrev ga !git add %
 :cabbrev gd !git diff %
