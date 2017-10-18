@@ -1,4 +1,5 @@
 all:
+	@echo "Usage: make install"
 
 installdirs:
 	mkdir -p ~/.vim/colors
