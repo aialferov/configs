@@ -4,9 +4,13 @@ Settings for VIM, Git and Terminal input.
 
 ## Usage
 
-Warning! Applying the settings will most probably erase your current!
+Please note! Applying the settings will replace the following files:
+ - ~/.vimrc
+ - ~/.inputrc
+ - ~/.gitconfig
+ - ~/.vim/colors/solarized.vim
 
-To apply the settings run:
+To apply please run:
 ```
 $ make install
 ```
