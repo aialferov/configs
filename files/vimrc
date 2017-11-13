@@ -1,4 +1,5 @@
 syntax off
+filetype on
 filetype indent off
 colorscheme solarized
 
