@@ -2,7 +2,7 @@
 	editor = vim
 [user]
 	email = anton@alferov.me
-	name = Anton I Alferov
+	name = Anton Alferov
 [color]
 	ui = auto
 [alias]

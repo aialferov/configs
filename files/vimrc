@@ -25,7 +25,9 @@ autocmd FileType make setlocal noexpandtab
 :cabbrev gd !git diff %
 :cabbrev gs !git stat
 :cabbrev gp !git push origin HEAD
+:cabbrev gpf !git push -f origin HEAD
 :cabbrev gci !git ci -v
+:cabbrev gcia !git ci --amend --no-edit
 :cabbrev gco !git co %
 
 :inoremap df <Esc>
