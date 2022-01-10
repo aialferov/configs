@@ -30,6 +30,10 @@ autocmd FileType make setlocal noexpandtab
 :cabbrev gcia !git ci --amend --no-edit
 :cabbrev gco !git co %
 
+:cabbrev gf !go fmt %
+:cabbrev gr !go run %
+:cabbrev gra !go run *.go
+
 :inoremap df <Esc>
 
 map " @
